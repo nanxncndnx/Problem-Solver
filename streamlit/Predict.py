@@ -65,9 +65,7 @@ def predict_from_dataset(args):
 def predict_from_text(args, text):
     # run-predict on text
     decoded_code = run_predict(args, text)
-    print("#" * 25); print("QUERY: ", text); 
-    print()
-    print('#' * 25); print("GENERATED: "); print("\n", decoded_code);
+    return decoded_code
 
 args = Args()
-predict_from_text(args, "reverse range number 10"); print()
+#predict_from_text(args, "reverse range number 10"); print()
