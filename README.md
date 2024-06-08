@@ -2,7 +2,7 @@
 In This Project :
 
  - You Can **Generate** The **Code** By Explaining What You Want
- - You Can **Asking** any **Question** From any **Website** And You Will Have The **Answer**
+ - You Can **Asking** any **Question** on any **Website** And You Will Have The **Answer**
 
 ## Code Generator
  - Finetune **CodeT5** on **MBPP** Dataset with **TensorFlow** 
@@ -54,7 +54,7 @@ In This Project :
 - In the end we save our model and tokenizer using .save_pretrained() method.
 - Define our training arguments **model, data, optimizer, training and initialize directories**.
 > **Warning :**
-> Do Not Run it on **CPU** it's will Take So Much Time And Also after Training Model when you want to Run and Test The Program With Predict file 
+> Do Not Run it on **CPU** it will Take too Much Time Also after Training the Model when you want to Run and Test The Program With Predict file use the **GPU** 
 > Do Not Run it on **CPU** Performance Will be Low!
 
 ### Predict [Code](./streamlit/Predict.py)
@@ -75,7 +75,7 @@ In This Project :
 <p align="center" width="100%">
  <br>
  <br>
- <img width="50%" src="./images/CPU.png">
+ <img src="./images/CPU.png">
   <br>
   <br>
 </p>
